@@ -1,0 +1,76 @@
+.main {
+	margin: 50px;
+	height: 430px;
+	width: 300px;
+	border: 3px solid #6e9c9e;
+	border-radius: 15px;
+	box-sizing: content-box;
+}
+
+.line_upper {
+	width: 100%;
+	height: 30px;
+	border: 1px solid #6e9c9e;
+	margin-top: 10px;
+}
+
+.rolex {
+	text-align: right;
+	padding-top: 5px;
+	background-color: #6e9c9e;
+	border: none;
+	color: white;
+}
+
+.rolex span {
+	margin-right: 10px;
+}
+
+.line_write {
+	width: 270px;
+	margin-left: 12px;
+	border: 3px solid #6e9c9e;
+	border-radius: 5px;
+	font-size: 18px;
+	color: #6e9c9e;
+	text-align: right
+}
+
+.block_full {
+	margin-left: 206px;
+	width: 80px;
+	background-color: #6e9c9e;
+}
+
+.blocks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	padding-left: 9px; 
+}
+
+.calc_block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #6e9c9e;
+	font-size: 24px;
+	margin: 0 10px 10px 0;
+	height: 55px;
+	width: 55px;
+	border: 3px solid #6e9c9e;
+	border-radius: 8px;
+}
+
+.calc_block:hover {
+	transition: background-color 0.5s;
+	background-color: #6e9c9e;
+	color: white;
+}
+
+.calc_block:active {
+	transition: color 0.1s;
+	color: green;
+}
